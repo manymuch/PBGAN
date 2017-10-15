@@ -1,6 +1,6 @@
 # PBGAN
 
-codes of 4 layers PBGAN with applications
+codes of 4 or 6 layers PBGAN with applications
 
 example:
 python main.py --dataset=celeba --input_height=108 --output_height=64 --train --crop --structure=0 --option=5
