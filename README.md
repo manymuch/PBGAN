@@ -13,12 +13,14 @@ python main.py --dataset=celeba --input_height=108 --output_height=64 --train --
              ==3 #for XNOR with batch norm,(not available for 6 layers)
              ==4 #for XNOR without batch norm(not available for 6 layers)
 
+
 --option: == 5  #generating sample outputs(default)
           == 6  #svhn feature maps, train,split into several files, each contains 10000 vectors
           == 7  #svhn test feature maps, test ,split into several files, each contains 10000 vectors
           == 8  #cifar10 feature maps, train, split into 5 files
           == 9  #cifar10 feature maps, test, split into 5 files
           == 10 #cifar10 feature maps visualizations,"horse picture"
+
 
 note: when using celeba or other dataset with picture size not 32x32, 
         use --input_height=xxx and output_height=64 and --crop as the example
