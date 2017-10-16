@@ -2,6 +2,8 @@
 
 codes of 4 or 6 layers PBGAN with applications
 
+
+
 example:
 python main.py --dataset=celeba --input_height=108 --output_height=64 --train --crop --structure=0 --option=5
 
@@ -27,3 +29,9 @@ note: when using celeba or other dataset with picture size not 32x32,
 if using dataset with 32x32 picture, like svhn, cifar10 Imagenet1
 simply run:
 python main.py --dataset=cifar10 --train --structure=0 --option=5        
+
+
+both read *.jpg data from ./../data/xxx
+for example,run:
+~/PBGAN/4layers/python main.py --dataset=cifar10 --train --structure=0 --option=5
+it reads all the *.jpg images from ~/PBGAN/data/cifar10/
